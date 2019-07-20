@@ -20,19 +20,19 @@ let assets = {
 };
 
 function preload()	{
-	assets.splash.bg = loadImage('../asset/splash/bg.jpg');
-	assets.splash.letters[0] = loadImage('../asset/splash/letters_A.jpg');
-	assets.splash.letters[1] = loadImage('../asset/splash/letters_I.jpg');
-	assets.splash.letters[2] = loadImage('../asset/splash/letters_D.jpg');
-	assets.splash.subtitle = loadImage('../asset/splash/subtitle.jpg');
-	assets.splash.start = loadImage('../asset/splash/start.jpg');
+	assets.splash.bg = loadImage('./asset/splash/bg.jpg');
+	assets.splash.letters[0] = loadImage('./asset/splash/letters_A.jpg');
+	assets.splash.letters[1] = loadImage('./asset/splash/letters_I.jpg');
+	assets.splash.letters[2] = loadImage('./asset/splash/letters_D.jpg');
+	assets.splash.subtitle = loadImage('./asset/splash/subtitle.jpg');
+	assets.splash.start = loadImage('./asset/splash/start.jpg');
 
-	assets.selection.bg = loadImage('../asset/selection/bg.jpg');
-	assets.selection[0] = loadImageArray('../asset/selection/Na/Na_', 3);
-	assets.selection[1] = loadImageArray('../asset/selection/Av/Av_', 15);
-	assets.selection[2] = loadImageArray('../asset/selection/Ky/Ky_', 14);
-	assets.selection[3] = loadImageArray('../asset/selection/Fu/Fu_', 15);
-	assets.selection[4] = loadImageArray('../asset/selection/We/We_', 9);
+	assets.selection.bg = loadImage('./asset/selection/bg.jpg');
+	assets.selection[0] = loadImageArray('./asset/selection/Na/Na_', 3);
+	assets.selection[1] = loadImageArray('./asset/selection/Av/Av_', 15);
+	assets.selection[2] = loadImageArray('./asset/selection/Ky/Ky_', 14);
+	assets.selection[3] = loadImageArray('./asset/selection/Fu/Fu_', 15);
+	assets.selection[4] = loadImageArray('./asset/selection/We/We_', 9);
 }
 
 function setup() {
