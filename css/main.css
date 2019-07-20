@@ -1,6 +1,6 @@
 body {
     background-color: rgb(46, 28, 32);
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     padding: 0;
 
@@ -11,6 +11,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.instructions {
+    color: white;
+    margin-top: 1rem;
 }
 
 body canvas {
